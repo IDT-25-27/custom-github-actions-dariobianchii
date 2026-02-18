@@ -1,8 +1,8 @@
 {
   "name": "custom-github-actions-dariobianchii",
   "version": "1.0.0",
-  "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
-  "main": "index.js",
+  "description": "Custom GitHub Action for IDT project",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ncc build src/main.js -o dist"
@@ -14,13 +14,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/IDT-25-27/custom-github-actions-dariobianchii/issues"
   },
   "homepage": "https://github.com/IDT-25-27/custom-github-actions-dariobianchii#readme",
   "dependencies": {
-    "@actions/core": "^3.0.0",
+    "@actions/core": "^1.10.0",
     "@vercel/ncc": "^0.38.4",
     "request": "^2.88.2",
     "request-promise": "^0.0.1"
