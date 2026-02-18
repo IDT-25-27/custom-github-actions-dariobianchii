@@ -1,27 +1,30 @@
 {
-  "name": "custom-github-actions-dariobianchii",
+  "name": "custom-github-actions-fratiba17",
   "version": "1.0.0",
-  "description": "Custom GitHub Action for IDT project",
-  "main": "dist/index.js",
+  "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
+  "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ncc build src/main.js -o dist"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "ncc build src/main.js -o dist"
+},
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IDT-25-27/custom-github-actions-dariobianchii.git"
+    "url": "git+https://github.com/IDT-25-27/custom-github-actions-FraTiba17.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
-    "url": "https://github.com/IDT-25-27/custom-github-actions-dariobianchii/issues"
+    "url": "https://github.com/IDT-25-27/custom-github-actions-FraTiba17/issues"
   },
-  "homepage": "https://github.com/IDT-25-27/custom-github-actions-dariobianchii#readme",
+  "homepage": "https://github.com/IDT-25-27/custom-github-actions-FraTiba17#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0",
+    "@actions/core": "^3.0.0",
     "@vercel/ncc": "^0.38.4",
     "request": "^2.88.2",
-    "request-promise": "^0.0.1"
+    "request-promise": "^4.2.6"
   }
 }
